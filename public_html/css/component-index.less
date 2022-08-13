@@ -1,0 +1,111 @@
+//out: false
+body{
+
+  .titulo{
+    background-image: url(../../img/titulo2.png);
+    min-height: 47px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+    background-position: center;
+    margin-bottom: 18px;
+    margin-top: 20px;
+    
+    h2{
+      vertical-align: unset;
+      margin-bottom: 0px;
+      font-size: xx-large;
+      font-weight: bold;
+      
+    }
+  }
+  #cabecera{
+    
+
+    @media screen and (max-width: 650px) {
+      min-height: 275px !important;
+    }
+    @media screen and (max-width: 1240px) {
+      min-height: 400px;
+    }
+    
+    background-image: url(../../img/cabecera2.png) ;
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    border-bottom: 2px solid lightgrey;
+    margin-bottom: 35px;
+  }
+  #graficosFavoritos{
+    .card{
+      @media screen and (min-width: 768px) {
+      min-height: 700px;
+    }
+    }
+    div.col-md-4{
+      transition: 0.15s;
+      &:hover{
+        
+        transform: scale(1.02);
+        
+        
+      }
+      form{
+        div{
+          img{
+            height: 200px;
+            object-fit: cover;
+          }
+          div{
+            span{
+              margin-right: 10px;
+            }
+          }
+          div.button-card-body{
+            text-align: center;
+          }
+        }
+      }
+    }
+    
+
+  }
+  #graficosRecomendados{
+    .card{
+      @media screen and (min-width: 768px) {
+      min-height: 700px;
+    }
+    }
+    .mensajeRecuperarGraficos{
+      width: -webkit-fill-available;
+      margin-top: 20px;
+    }
+    div.col-md-4{
+      transition: 0.15s;
+      &:hover{
+        transform: scale(1.02);
+    }
+      form{
+        div{
+          h3{
+
+          }
+          img{
+            height: 200px;
+            object-fit: cover;
+          }
+          div{
+            span{
+              margin-right: 10px;
+            }
+          }
+          div.button-card-body{
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  
+}

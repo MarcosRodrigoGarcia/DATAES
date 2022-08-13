@@ -1,0 +1,441 @@
+.navbar .navbar-brand {
+  padding: 5px;
+}
+.navbar .navbar-brand svg {
+  width: 50px;
+  height: 50px;
+}
+.navbar .form-check.form-switch {
+  margin-top: 9px;
+}
+footer {
+  text-align: center;
+  margin-top: 40px !important;
+  background-image: url(../../img/footer.jpg);
+}
+footer .contenedor-footer {
+  margin-top: 40px !important;
+}
+footer #github {
+  fill: white;
+}
+footer .text-center {
+  color: white;
+}
+body .titulo {
+  background-image: url(../../img/titulo2.png);
+  min-height: 47px;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+  padding: 5px;
+  background-position: center;
+  margin-bottom: 18px;
+  margin-top: 20px;
+}
+body .titulo h2 {
+  vertical-align: unset;
+  margin-bottom: 0px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+body #cabecera {
+  background-image: url(../../img/cabecera2.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+  border-bottom: 2px solid lightgrey;
+  margin-bottom: 35px;
+}
+@media screen and (max-width: 650px) {
+  body #cabecera {
+    min-height: 275px !important;
+  }
+}
+@media screen and (max-width: 1240px) {
+  body #cabecera {
+    min-height: 400px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body #graficosFavoritos .card {
+    min-height: 700px;
+  }
+}
+body #graficosFavoritos div.col-md-4 {
+  transition: 0.15s;
+}
+body #graficosFavoritos div.col-md-4:hover {
+  transform: scale(1.02);
+}
+body #graficosFavoritos div.col-md-4 form div img {
+  height: 200px;
+  object-fit: cover;
+}
+body #graficosFavoritos div.col-md-4 form div div span {
+  margin-right: 10px;
+}
+body #graficosFavoritos div.col-md-4 form div div.button-card-body {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  body #graficosRecomendados .card {
+    min-height: 700px;
+  }
+}
+body #graficosRecomendados .mensajeRecuperarGraficos {
+  width: -webkit-fill-available;
+  margin-top: 20px;
+}
+body #graficosRecomendados div.col-md-4 {
+  transition: 0.15s;
+}
+body #graficosRecomendados div.col-md-4:hover {
+  transform: scale(1.02);
+}
+body #graficosRecomendados div.col-md-4 form div img {
+  height: 200px;
+  object-fit: cover;
+}
+body #graficosRecomendados div.col-md-4 form div div span {
+  margin-right: 10px;
+}
+body #graficosRecomendados div.col-md-4 form div div.button-card-body {
+  text-align: center;
+}
+div.mapa {
+  min-height: 70vh;
+}
+div.mapa .pintarMapaEscritorio {
+  margin-bottom: 20px;
+}
+div.administrador {
+  background-color: #69696947;
+  padding: 10px;
+}
+div.administrador #label-comentario {
+  font-weight: 700;
+}
+div.administrador input#foto {
+  width: 100%;
+  margin: 15px 0;
+}
+div.administrador #contenedor-img img {
+  width: 150px;
+  align-items: center;
+  border-radius: 15px;
+}
+div.administrador #botones-administrador {
+  margin-top: 20px;
+  text-align: center;
+}
+.busqueda-personalizada {
+  min-height: 70vh;
+}
+.busqueda-personalizada div.tabla {
+  display: none;
+}
+.busqueda-personalizada select {
+  width: 100%;
+  height: 45px;
+  word-wrap: normal;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.busqueda-personalizada .botones {
+  text-align: center;
+  margin: 20px;
+}
+.busqueda-personalizada .progress {
+  margin: 20px 15%;
+}
+@media screen and (min-width: 1023px) {
+  .busqueda-personalizada .chart-container {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 700) {
+  .busqueda-personalizada .chart-container {
+    height: 600px;
+  }
+}
+.pintarMapaMovil {
+  width: 100%;
+}
+@media screen and (min-width: 768) {
+  .pintarMapaMovil {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 767) {
+  .pintarMapaEscritorio {
+    display: none !important;
+  }
+}
+/* The modal's background */
+#login {
+  color: black;
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Add animation (Standard syntax) */
+  /* Display the modal when targeted */
+  /* The modal box */
+  /* Add animation */
+  -webkit-animation-name: example;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 0.5s;
+  /* Chrome, Safari, Opera */
+  animation-name: example;
+  animation-duration: 1.5s;
+  /* The button used to close the modal */
+}
+#login a {
+  text-decoration: none;
+}
+#login #btn-close-log {
+  position: relative;
+  right: -216px;
+}
+#login label {
+  font-family: "Raleway", sans-serif;
+  font-size: 11pt;
+}
+#login #forgot-pass {
+  color: #2dbd6e;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 3px;
+  text-align: right;
+}
+#login #card {
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: fit-content;
+  margin: 6rem auto 8.1rem auto;
+  width: 329px;
+  padding: 15px;
+}
+#login #card-content {
+  padding: 12px 44px;
+}
+#login #card-title {
+  font-family: "Raleway Thin", sans-serif;
+  letter-spacing: 4px;
+  padding-bottom: 23px;
+  padding-top: 13px;
+  text-align: center;
+}
+#login #signup {
+  color: #2dbd6e;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 16px;
+  text-align: center;
+}
+#login #submit-btn {
+  background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+  border: none;
+  border-radius: 21px;
+  box-shadow: 0px 1px 8px #24c64f;
+  cursor: pointer;
+  color: white;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition: 0.25s;
+  width: 153px;
+}
+#login #submit-btn:hover {
+  box-shadow: 0px 1px 18px #24c64f;
+}
+#login .form {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+#login .form-border {
+  background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+  height: 1px;
+  width: 100%;
+}
+#login .form-content {
+  background: #fbfbfb;
+  border: none;
+  outline: none;
+  padding-top: 14px;
+}
+#login .underline-title {
+  background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+  height: 2px;
+  margin: -1.1rem auto 0 auto;
+  width: 89px;
+}
+@-webkit-keyframes example {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+@keyframes example {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+#login .modal:target {
+  display: table;
+  position: absolute;
+}
+#login .modal-dialog {
+  display: table-cell;
+  vertical-align: middle;
+}
+#login .closebtn {
+  text-decoration: none;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+}
+#login .closebtn:hover,
+#login .closebtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#registro {
+  color: black;
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Add animation */
+  -webkit-animation-name: example;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 0.5s;
+  /* Chrome, Safari, Opera */
+  animation-name: example;
+  animation-duration: 1.5s;
+  /* The button used to close the modal */
+}
+#registro a {
+  text-decoration: none;
+}
+#registro #btn-close-reg {
+  position: relative;
+  right: -216px;
+}
+#registro label {
+  font-family: "Raleway", sans-serif;
+  font-size: 11pt;
+}
+#registro #forgot-pass {
+  color: #2dbd6e;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 3px;
+  text-align: right;
+}
+#registro #card {
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: fit-content;
+  margin: 6rem auto 8.1rem auto;
+  width: 329px;
+  padding: 15px;
+}
+#registro #card-content {
+  padding: 12px 44px;
+}
+#registro #card-title {
+  font-family: "Raleway Thin", sans-serif;
+  letter-spacing: 4px;
+  padding-bottom: 23px;
+  padding-top: 13px;
+  text-align: center;
+}
+#registro #signup {
+  color: #2dbd6e;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 16px;
+  text-align: center;
+}
+#registro #submit-btn {
+  background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+  border: none;
+  border-radius: 21px;
+  box-shadow: 0px 1px 8px #24c64f;
+  cursor: pointer;
+  color: white;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition: 0.25s;
+  width: 153px;
+}
+#registro #submit-btn:hover {
+  box-shadow: 0px 1px 18px #24c64f;
+}
+#registro .form {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+#registro .form-border {
+  background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+  height: 1px;
+  width: 100%;
+}
+#registro .form-content {
+  background: #fbfbfb;
+  border: none;
+  outline: none;
+  padding-top: 14px;
+}
+#registro .underline-title {
+  background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+  height: 2px;
+  margin: -1.1rem auto 0 auto;
+  width: 89px;
+}
+#registro .closebtn {
+  text-decoration: none;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+}
+#registro .closebtn:hover,
+#registro .closebtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.alert {
+  margin: 15px;
+}
